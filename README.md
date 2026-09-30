@@ -1,5 +1,31 @@
-## Key Findings
+# Telco Customer Churn Analysis
 
+## Project Overview
+This project analyzes customer churn to identify customer segments with high churn rates and propose retention initiatives.
+
+## Business Questions
+- How does churn vary by contract type, tenure, internet service, and monthly charges?
+- Which combinations of customer characteristics have the highest churn rates?
+- Which customer segments should be prioritized for retention tests?
+
+## Dataset
+The analysis uses the IBM Telco Customer Churn sample dataset, containing 7,043 customers. Each row represents one customer, with information about services, contracts, charges, tenure, and churn status.
+
+## Tools and Workflow
+- Python / Pandas: data cleaning and customer segmentation.
+- SQL Server: data validation and churn analysis.
+- Power BI / DAX: KPI calculations and two dashboard pages.
+- GitHub: project documentation and deliverables.
+
+Workflow: Raw data → Python cleaning → SQL analysis → Power BI dashboards.
+
+## Key Metrics
+- Total Customers: number of customers.
+- Churned Customers: customers with Churn = "Yes".
+- Churn Rate: churned customers / total customers.
+- Average Monthly Charges: mean monthly charges.
+
+## Key Findings
 - Overall churn rate is **26.54%**: 1,869 of 7,043 customers left.
 - Month-to-month customers have a **42.71%** churn rate, compared with **11.27%** for one-year and **2.83%** for two-year contracts.
 - Customers with 0–12 months of tenure have a **47.44%** churn rate, compared with **9.51%** for those with 49–72 months.
